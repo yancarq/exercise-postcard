@@ -1,7 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=OpenSans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./styles.css" />
+	<title>Post Card</title>
 </head>
 <body>
+    <div class="content">
+        <div class="top_card">
+            <div id="div_h1">
+                <h1>My Postcard</h1>
+            </div>
+            <div id="div_img">
+                <img id="img_logo" src="http://assets.breatheco.de/apis/img/icon/4geeks.png">
+            </div>
+        </div>
+        <div class="middle_card">
+            <div id="div_left">
+                <p>
+                    Look how awesome! This is a 
+                    postcard that I created unsing HTML5 and CSS3
+                    during my 4Geeks Academy Course!
+                </p>
+                <p>
+                    This is so cool, can't wait to start doing more stuff!
+                </p>
+            </div>
+            <div id="div_right">
+                <div>
+                    <input type="text" name="name" placeholder="Some Name">
+                    <i class="fa fa-address-book-o" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <input type="text" name="email" placeholder="Some Email">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <input type="text" name="comment" placeholder="Some Comment">
+                    <i class="fa fa-comments-o" aria-hidden="true"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom_card">
+            <button>Send My Postcard</button>
+
+        </div>
+    </div>
 </body>
 </html>
